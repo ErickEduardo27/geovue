@@ -1,14 +1,13 @@
 <template>
-  <HelloWorld />
+  <Canvas />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import Canvas from "./components/canvas.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Canvas,
   },
 };
 </script>
